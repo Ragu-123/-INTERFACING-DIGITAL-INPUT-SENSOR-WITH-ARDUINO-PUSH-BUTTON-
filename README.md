@@ -98,9 +98,9 @@ void loop()
 
 ## OUTPUT OF SIMULATION :
 ![image](https://github.com/Ragu-123/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/113915622/ae40fc11-440a-40ff-9828-51e7d139af22)
-
+![Screenshot 2024-02-15 110655](https://github.com/Ragu-123/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/113915622/75dd80c9-1f2c-4b32-819a-b636641e7b96)
 
 [My image](username.github.com/repository/img/image.jpg)
 
 ## Result:
-Thus the digtal interfacing of circuit using Aurdino circuit is completed sucessfully by thinkercad software.
+Thus the digtal interfacing of circuit using Aurdino circuit is completed sucessfully by tinkercad software.
