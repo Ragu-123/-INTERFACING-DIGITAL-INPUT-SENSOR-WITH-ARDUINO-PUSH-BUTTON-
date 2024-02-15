@@ -1,8 +1,8 @@
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+## DATE : 15/02/2024
+## NAME :RAGUNATH R																			             
+## ROLLNUMBER :212222240081
+## DEPARTMENT :AI ML
 
 
 ## AIM:
@@ -62,24 +62,45 @@ FIGURE -03
 
 
 ## PROGRAM 
- 
- 
+ ```
+// C++ code
+//
+
+int led=4;
+int pushbutton=3;
 
 
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
 
-
-
-
-
-
-
- 
- 
- 
-
-
+void loop()
+{
+  int pb;
+  pb=digitalRead(pushbutton);
+  
+  if(pb==HIGH)
+  {
+  
+  digitalWrite(led, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(led, LOW);
+  delay(500); // Wait for 1000 millisecond(s)
+  }
+  else{
+    delay(500);
+    digitalWrite(led, LOW);
+  }
+}
+```
 
 ## OUTPUT OF SIMULATION :
+![image](https://github.com/Ragu-123/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/113915622/ae40fc11-440a-40ff-9828-51e7d139af22)
+
 
 [My image](username.github.com/repository/img/image.jpg)
 
+## Result:
+Thus the digtal interfacing of circuit using Aurdino circuit is completed sucessfully by thinkercad software.
